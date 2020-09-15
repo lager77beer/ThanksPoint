@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/pointName"
+        android:layout_alignParentLeft="true"
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ニックネーム" />
+
+    <TextView
+        android:id="@+id/point"
+        android:layout_toLeftOf="@+id/labelPoint"
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/labelPoint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_toLeftOf="@+id/commentsShowButton"
+        android:paddingTop="5dp"
+        android:text="点" />
+
+    <Button
+        android:id="@+id/commentsShowButton"
+        android:layout_alignParentEnd="true"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:background="@drawable/custom_button"
+        android:text="コメントの表示"
+        android:textColor="@color/colorButtonText"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/pointUid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+
+</RelativeLayout>

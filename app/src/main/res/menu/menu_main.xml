@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="jp.techacademy.tomomi.yoshida.thankspoint.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="設定"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_say_thanks"
+        android:orderInCategory="101"
+        android:title="ありがとう"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_totalization"
+        android:orderInCategory="102"
+        android:title="集計"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="103"
+        android:title="ログアウト"
+        app:showAsAction="never" />
+
+</menu>
